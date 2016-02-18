@@ -1,0 +1,139 @@
+/* 1. ESTILOS GENERALES: */
+
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	height: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	display: block;
+}
+
+head {
+	display: none;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 100%;
+	cursor: auto;
+}
+
+div {
+	display: block;
+}
+
+img {
+  	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+/* 2. FUENTES: */
+
+h1, h2, h3, h4, h5 {
+	line-height: 1;
+	font-weight: 300;
+	color: #685F74;
+	-webkit-font-smoothing: antialiased;
+}
+h1 {
+	font-size: 24pt;
+	font-style: bold;
+}
+h2 {
+	font-size: 18pt;
+}
+h3 {
+	font-size: 12pt;
+}
+h4 {
+	font-size: 11pt;
+}
+h5 {
+	font-size: 8pt;
+}
+
+/* 3. Capa 1: */
+.header-wrapper {
+	width: 100%;
+	background-color: #F3E0EC; 
+}
+
+.header-wrapper nav {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	display: block;
+	background-color: #685F74;
+	color: #fff;
+}
+
+.header-wrapper nav ul{
+	width: auto;
+	height: auto;
+	padding: 1em;
+	position: relative;
+}
+
+.header-wrapper nav ul li {
+	display: inline;
+	padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+
+.header-wrapper nav ul li a {
+	color: #eee;
+	text-transform: uppercase;
+    font-weight: bolder;
+}
+.name-wrapper {
+	display: inline-block;
+    margin: 5% 40%;
+}
+.name-wrapper h1 {
+	font-size: 36pt;
+	font-style: bold;
+}
+.second-layer {
+	background-color: #DAD7CD;
+}
+.second-layer div {
+	display: block;
+	border-radius: ;
+}
+.second-layer div img {
+	max-width: 200px;
+	border-radius: 150px;
+	margin: 2.5em;
+	margin: 5% 5%;
+
+}
+.second-layer div div {
+	display: inline-block;
+    width: auto;
+}
+/* EXTRAS: */
+/** Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/** Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
